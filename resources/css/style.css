@@ -3,12 +3,11 @@
   text-align: center;
 }
 .header {
-background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg);
-0px 0px, 10px 10px;
+  /*set background-image relative to style.css*/
+background-image: url(../the-flatiron-building.jpg);
+/*code below helped correct image issue*/
 background-position: center;
-background-attachment: fixed;
-background-repeat: no-repeat;
-
+background-size: cover;
 }
 h1 {
   font-size: 70px;
@@ -32,11 +31,23 @@ h3 p {
   font-size: 14px;
 }
 .designer {
-background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg);
+  /*set background-image relative to style.css*/
+background-image: url(../the-flatiron-building.jpg);
 background-position: center;
-background-attachment: fixed;
-background-repeat: no-repeat;
+/*code below helped correct image issue*/
+background-size: cover;
 color: white;
 font-size: 23px;
 font-weight: bold;
+}
+.footer p{
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+.footer a {
+  font-size: 23px;
+  color: white;
+  text-align: left;
 }
